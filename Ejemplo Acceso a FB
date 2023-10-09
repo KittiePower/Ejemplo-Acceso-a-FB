@@ -1,0 +1,27 @@
+/******************************************************************************
+Ejemplo Acceso a FB
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 26042022
+*******************************************************************************/
+#include <iostream>
+/*
+Ejemplo para uso de condicional if-else
+*/
+using namespace std;
+
+int main()
+{
+    string respuesta="";
+    cout<<" Para continuar escribe tu password"<<endl;
+    cin>>respuesta;
+    if(respuesta=="programa2021"){
+        cout<<"Acceso concedido"<<endl;
+        
+    }
+    else
+    {
+        cout<<"Acceso denegado"<<endl;
+    }
+    return 0;
+}
+
